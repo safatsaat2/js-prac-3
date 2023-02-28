@@ -1,4 +1,4 @@
-function work(x, y = 4) {
-    return x + y;
-   }
-   console.log(work(32);
+let p='Javascript'; 
+let q=p; 
+p='React'; 
+console.log(q);
