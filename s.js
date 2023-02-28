@@ -1,5 +1,5 @@
-function sum(p, q) {
-    p + q;
+if ("2" === 2) {
+    console.log("Inside if");
+   } else {
+    console.log("Inside else");
    }
-   const result = sum(2, 3);
-   console.log(result);
