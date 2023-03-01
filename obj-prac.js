@@ -35,14 +35,18 @@
 
 // console.log(bab)
 
-const obj = {
-    name : "Safat",
-    age : 20,
-}
+// const obj = {
+//     name : "Safat",
+//     age : 20,
+// }
 
-const array = [90,12,232,32]
+// const array = [90,12,232,32]
 
-let ver1 = obj.name;
-let balance = array[1];
+// let ver1 = obj.name;
+// let balance = array[1];
 
-console.log(ver1, balance)
+// console.log(ver1, balance)
+
+fetch(`https://jsonplaceholder.typicode.com/photos`)
+.then(res => res.json())
+.then(data => console.log(data))
