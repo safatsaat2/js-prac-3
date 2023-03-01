@@ -19,8 +19,11 @@ console.log(Details);
 
 const numm = 89;
 
-const arrowFunction = (num) =>{
-    return console.log(num);
+const arrowFunction = (num1, num2) =>{
+    let resultNum1 = num1 + 7;
+    const resultNum2 = num2 + 7;
+    const resultFinal = resultNum1 + resultNum2;
+    return console.log(resultFinal)
 }
 
-arrowFunction(89);
+arrowFunction(1001, 120);
