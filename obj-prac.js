@@ -28,9 +28,21 @@
 
 // arrowFunction(1001, 120);
 
-const numArray = [80,20,90,30,40,50];
-const newArray= []
-let bab = numArray.map(num => num % 7)
+// const numArray = [80,20,90,30,40,50];
+// const newArray= []
+// let bab = numArray.map(num => num % 7)
 
 
-console.log(bab)
+// console.log(bab)
+
+const obj = {
+    name : "Safat",
+    age : 20,
+}
+
+const array = [90,12,232,32]
+
+let ver1 = obj.name;
+let balance = array[1];
+
+console.log(ver1, balance)
