@@ -47,23 +47,33 @@
 
 // console.log(ver1, balance)
 
-fetch(`https://jsonplaceholder.typicode.com/photos`)
-.then(res => res.json())
-.then(data => loading(data))
+// fetch(`https://jsonplaceholder.typicode.com/photos`)
+// .then(res => res.json())
+// .then(data => loading(data))
 
-function loading(data){
-    let img = data[0].url;
-    let div = document.getElementById('loader');
-    let div2 = document.createElement('div');
-    div2.innerHTML = `<div class="card card-compact w-96 bg-base-100 shadow-xl">
-                            <figure><img src="${img}" alt="Shoes" /></figure>
-                                <div class="card-body">
-                                <h2 class="card-title">Shoes!</h2>
-                                <p>If a dog chews shoes whose shoes does he choose?</p>
-                        <div class="card-actions justify-end">
-                            <button class="btn btn-primary">Buy Now</button>
-                        </div>
-                        </div>
-                      </div>`
-    div.appendChild(div2)
-}
+// function loading(data){
+//     let img = data[0].url;
+//     let div = document.getElementById('loader');
+//     let div2 = document.createElement('div');
+//     div2.innerHTML = `<div class="card card-compact w-96 bg-base-100 shadow-xl">
+//                             <figure><img src="${img}" alt="Shoes" /></figure>
+//                                 <div class="card-body">
+//                                 <h2 class="card-title">Shoes!</h2>
+//                                 <p>If a dog chews shoes whose shoes does he choose?</p>
+//                         <div class="card-actions justify-end">
+//                             <button id= "btn" class="btn btn-primary">Buy Now</button>
+//                         </div>
+//                         </div>
+//                       </div>`
+//     div.appendChild(div2)
+//     document.getElementById('btn').addEventListener('click', function(){
+//         console.log("hi")
+//     })
+// }
+const alertBtn = () => {
+    alert('hi')
+} 
+
+
+
+
