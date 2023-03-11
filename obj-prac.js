@@ -72,6 +72,11 @@
 // }
 const alertBtn = () => {
     alert('hi')
+    const lala = prompt("enter");
+    console.log(lala)
+    return lala
+
+
 } 
 
 
