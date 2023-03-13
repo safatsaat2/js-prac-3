@@ -69,16 +69,16 @@
 //     document.getElementById('btn').addEventListener('click', function(){
 //         console.log("hi")
 //     })
-// }
-const alertBtn = () => {
-    alert('hi')
-    const lala = prompt("enter");
-    console.log(lala)
-    return lala
+// // }
+// const alertBtn = () => {
+//     alert('hi')
+//     const lala = prompt("enter");
+//     console.log(lala)
+//     return lala
 
 
-} 
+// } 
 
-
-
+const obj = {a:1};
+console.log(Object.keys(obj).length===0);
 
