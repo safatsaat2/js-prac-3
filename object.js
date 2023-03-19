@@ -11,4 +11,4 @@ class person{
 }
 
 console.log(player);
-console.log(new person(79))
+console.log(new person(80))

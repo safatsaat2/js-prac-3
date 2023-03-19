@@ -79,6 +79,9 @@
 
 // } 
 
-const obj = {a:1};
-console.log(Object.keys(obj).length===0);
-
+// const obj = {a:1};
+// console.log(Object.keys(obj).length===0);
+let nume = parseInt(document.getElementById('num').innerText);
+const dumb = () => {
+    document.getElementById('num').innerText = (nume++) + 3; 
+}
