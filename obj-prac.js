@@ -81,7 +81,11 @@
 
 // const obj = {a:1};
 // console.log(Object.keys(obj).length===0);
-let nume = parseInt(document.getElementById('num').innerText);
-const dumb = () => {
-    document.getElementById('num').innerText = (nume++) + 3; 
-}
+// let nume = parseInt(document.getElementById('num').innerText);
+// const dumb = () => {
+//     document.getElementById('num').innerText = (nume++) + 3; 
+// }
+
+let ul = `<li>Programming<li>`; 
+ul += `<li>Hero<li>`; 
+console.log(ul);
